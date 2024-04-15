@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#title{
+    color: crimson;
+}
+#profile{
+    width: 47rem;
+    height: 40rem;
+}
+#about{
+    background-color: rgb(10, 10, 10);
+}
+#aboutProfile{
+    width: 35rem;
+    height: 29rem;
+}
+#education{
+    border-top: crimson 0.5px solid;
+}
+#experience{
+    border-top: crimson 0.5px solid;
+}
+.circle{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+}
