@@ -8,32 +8,32 @@
     <title>Aneeqa Louw</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-transparent border-bottom sticky-top text-white" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-black border-bottom sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#home">AL</a>
+            <a class="navbar-brand text-light" href="#home">AL</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto fs-4 text-white">
+                <ul class="navbar-nav ms-auto fs-5">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link text-white" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#resume">Education & Experience</a>
+                        <a class="nav-link text-white" href="#resume">Education & Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#work">Work</a>
+                        <a class="nav-link text-white" href="#work">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                        <a class="nav-link text-white" href="#testimonials">Testimonials</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact me</a>
+                        <a class="nav-link text-white" href="#contact">Contact me</a>
                     </li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
                     <p class="display-1">
                         <span id="title">Designer</span>|<span id="title">Developer</span>
                     </p>
-                    <p class="lead fs-3">Junior Web Designer/Devloper</p>
+                    <p class="lead fs-3">Junior Web Designer/Developer</p>
                     <a href="#about" class="lead">Learn more ></a>
                 </div>
                 <div class="col-5 d-none d-md-block">
@@ -69,7 +69,7 @@
         <!-- about -->
         <section id="about" class="container-fluid justify-content-center">
             <br><br>
-            <h2 class="d-flex justify-content-center display-3" id="title">About me</h2>
+            <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">About me</h2>
             <div class="d-flex justify-content-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
                     <circle cx="16" cy="16" r="10" fill="#dc143c" />
@@ -88,6 +88,7 @@
                 </svg>
             </div>
             <br><br>
+            <p class="lead d-flex justify-content-center" id="sub">A bit about me and my background</p>
             <div class="row d-block d-md-flex justify-content-center">
                 <div class="col">
                     <img src="./images/b&w profile.png" alt="profile" id="aboutProfile">
@@ -107,9 +108,11 @@
             </div>
             <br><br>
         </section>
+
+        <!-- resume -->
         <section id="resume" class="container">
             <br><br>
-            <h2 class="d-flex justify-content-center display-4" id="title">Education & Experience</h2>
+            <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">Education & Experience</h2>
                         <div class="d-flex justify-content-center gap-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
                                 <circle cx="16" cy="16" r="10" fill="#dc143c" />
@@ -287,11 +290,12 @@
         </section>
         <br><br>
         <br><br>
+
         <!-- projects -->
         <section id="work">
             <div class="container">
                 <br><br>
-                <h2 id="title" class="d-flex justify-content-center display-3">Some of my work</h2>
+                <h2 id="title" class="d-flex justify-content-center display-3 fw-bold">Some of my work</h2>
                 <div class="d-flex justify-content-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
                         <circle cx="16" cy="16" r="10" fill="#dc143c" />
@@ -310,10 +314,11 @@
                     </svg>
                 </div>
                 <br><br>
+                <p class="lead d-flex justify-content-center" id="sub">Some of my websites/web application projects</p>
                 <br><br>
                 <br><br>
-                <div class="row">
-                    <div class="col">
+                <div class="row d-flex justify-content-center gap-5">
+                    <div class="col-3">
                         <img src="https://i.ibb.co/YL5G1yf/abroad-academy.png" alt="abroad-academy" id="projectImg">
                         <br><br>
                         <h5 class="fs-3">Abroad Academy</h5>
@@ -327,7 +332,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <img src="./images/altitude.PNG" alt="altitude-apparel" id="projectImg">
                         <br><br>
                         <h5 class="fs-3">Altitude Apparel</h5>
@@ -341,7 +346,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <img src="https://i.postimg.cc/xdm9fqbk/kilau-lip-pigments.png" alt="kilau-lip-pigments" id="projectImg">
                         <br><br>
                         <h5 class="fs-3">Kilau Lip Pigments</h5>
@@ -355,7 +360,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <br><br>
                         <img src="https://i.postimg.cc/W1Fv8t89/palindrome-checker.png" alt="palindrome-checker" id="projectImg">
                         <br><br>
@@ -370,7 +375,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-3">
                         <br><br>
                         <img src="./images/temp copy.PNG" alt="temp-converter" id="projectImg">
                         <br><br>
@@ -392,7 +397,7 @@
         <!-- testimonials -->
         <section id="testimonials">
             <br><br>
-            <h2 class="d-flex justify-content-center display-3" id="title">Testimonials</h2>
+            <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">Testimonials</h2>
             <div class="d-flex justify-content-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
                     <circle cx="16" cy="16" r="10" fill="#dc143c" />
@@ -410,6 +415,144 @@
                         d="M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14m0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4" />
                 </svg>
             </div>
+            <br><br>
+            <p class="lead d-flex justify-content-center" id="sub">What others have to say about me</p>
+            <br><br>
+            <br><br>
+            <div class="row d-flex justify-content-center gap-5">
+                <div class="col-2">
+                    <img src="https://i.ibb.co/yNKQcLJ/joel.png" alt="joel" id="reviewImg">
+                    <br><br>
+                    <h4 class="fw-bold">Joel Mukanya</h4>
+                    <p style="font-style: italic;">
+                        <span class="fs-4">"</span>I do have the pleasure of being Aneeqa Louw's Lecturer, a creative, well-behaved, and dedicated individual who enjoys
+                        collaborating with her peers and excels in her projects. She has acquired a diverse set of skills, including HTML, CSS
+                        3, Bootstrap 5, Javascript, Node js, Vue js and MySql. I wholeheartedly recommend Aneeqa as a strong candidate and wish her the very best in her future
+                        endeavors. <span class="fs-4">"</span>
+                    </p>
+                    <br>
+                </div>
+                <div class="col-2">
+                    <img src="https://i.ibb.co/JvpngWb/eighton.png" alt="eighton" id="reviewImg">
+                    <br><br>
+                    <h4 class="fw-bold">Eighton-Lee Paulse</h4>
+                    <p style="font-style: italic;">
+                        <span class="fs-4">"</span>Aneeqa is an exceptionally passionate individual with an extraordinary talent for design thinking. Her work has
+                        consistently left me in awe, and I am genuinely excited to witness her future endeavors. I wholeheartedly recommend her
+                        to any company in search of a highly skilled developer. <span class="fs-4">"</span>
+                    </p>
+                    <br><br>
+                    <br><br>
+                </div>
+                <div class="col-2">
+                    <img src="https://i.ibb.co/tPNns5h/1697092465133.jpg" alt="jaydonn" id="reviewImg">
+                    <br><br>
+                    <h4 class="fw-bold">Jay-donn Hendricks</h4>
+                    <p style="font-style: italic;">
+                        <span class="fs-4">"</span>Aneeqa Louw is a great person with an amazing personality. She's kind, grounded and diligent. I would highly recommend
+                        her if you are looking for someone that works well with designing websites and helping it gain loads of attention from
+                        all crowds. <span class="fs-4">"</span>
+                    </p>
+                    <br><br>
+                    <br><br>
+                    <br>
+                </div>
+                <div class="col-2">
+                    <img src="https://i.ibb.co/jgRmC9j/vero.jpg" alt="veronique" id="reviewImg">
+                    <br><br>
+                    <h4 class="fw-bold">Veronique Nappie</h4>
+                    <p style="font-style: italic;">
+                        <span class="fs-4">"</span>Aneeqa is a hardworking and a very intellectual individual. She grasps difficult concepts quickly and isn't afraid to
+                        take on challenges when they are presented to her. Having worked closely with her, I've witnessed unparalleled technical
+                        proficiency and a commitment to delivering high-quality solutions on time. <span class="fs-4">"</span>
+                    </p>
+                    <br><br>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <br><br>
+
+        <!-- contact -->
+        <section id="contact" class="container-fluid">
+            <br><br>
+            <h2 class="d-flex justify-content-center display-3" id="title">Get in touch</h2>
+            <div class="d-flex justify-content-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
+                    <circle cx="16" cy="16" r="10" fill="#dc143c" />
+                    <path fill="#dc143c"
+                        d="M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14m0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
+                    <circle cx="16" cy="16" r="10" fill="#dc143c" />
+                    <path fill="#dc143c"
+                        d="M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14m0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
+                    <circle cx="16" cy="16" r="10" fill="#dc143c" />
+                    <path fill="#dc143c"
+                        d="M16 30a14 14 0 1 1 14-14a14.016 14.016 0 0 1-14 14m0-26a12 12 0 1 0 12 12A12.014 12.014 0 0 0 16 4" />
+                </svg>
+            </div> <br>
+            <p class="lead d-flex justify-content-center">Contact me or send a message</p>
+            <br><br><br><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-2">
+                    <a href="tel:+27-83-424-6185" class="d-flex justify-content-center" target="_blank">
+                        <!-- svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 512 512">
+                            <path fill="#dc143c"
+                                d="M391 480c-19.52 0-46.94-7.06-88-30c-49.93-28-88.55-53.85-138.21-103.38C116.91 298.77 93.61 267.79 61 208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82 73.38 58.16 62.65 74.11 52a176.3 176.3 0 0 1 28.64-15.2c1-.43 1.93-.84 2.76-1.21c4.95-2.23 12.45-5.6 21.95-2c6.34 2.38 12 7.25 20.86 16c18.17 17.92 43 57.83 52.16 77.43c6.15 13.21 10.22 21.93 10.23 31.71c0 11.45-5.76 20.28-12.75 29.81c-1.31 1.79-2.61 3.5-3.87 5.16c-7.61 10-9.28 12.89-8.18 18.05c2.23 10.37 18.86 41.24 46.19 68.51s57.31 42.85 67.72 45.07c5.38 1.15 8.33-.59 18.65-8.47c1.48-1.13 3-2.3 4.59-3.47c10.66-7.93 19.08-13.54 30.26-13.54h.06c9.73 0 18.06 4.22 31.86 11.18c18 9.08 59.11 33.59 77.14 51.78c8.77 8.84 13.66 14.48 16.05 20.81c3.6 9.53.21 17-2 22c-.37.83-.78 1.74-1.21 2.75a176.49 176.49 0 0 1-15.29 28.58c-10.63 15.9-21.4 28.21-39.38 36.58A67.42 67.42 0 0 1 391 480" />
+                        </svg>
+                    </a>
+                    <p class="lead fs-5 d-flex justify-content-center">+27 83 424 6185</p>
+                </div>
+                <div class="col-2">
+                    <a href="mailto:aneeqalouw057@gmail.com?" class="d-flex justify-content-center" target="_blank">
+                        <!-- svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24">
+                            <path fill="#dc143c"
+                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44" />
+                        </svg>
+                    </a>
+                    <p class="lead fs-5 d-flex justify-content-center">aneeqalouw057@gmail.com</p>
+                </div>
+            
+                <div class="col-2">
+                    <a href="https://maps.app.goo.gl/GCg32YJmoBxmQ4LS8" class="d-flex justify-content-center" target="_blank">
+                        <!-- svg -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24">
+                            <path fill="#dc143c"
+                                d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.971 6.971 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" />
+                        </svg>
+                    </a>
+                    <p class="lead fs-5 d-flex justify-content-center" style="text-align: center;">
+                        Surrey Estate 7764 <br>
+                        Cape Town, South Africa
+                    </p>
+                </div>
+            </div>
+            <br><br><br><br>
+            <div class="row d-flex justify-content-center">
+                <div class="col-6 bg-black p-5 rounded-4 w-75">
+                    <h3 class="d-flex justify-content-center fs-1 my-3">Send a message</h3>
+                    <br><br>
+                    <div class="container d-flex justify-content-center">
+                        <form action="" method="post">
+                            <p class="lead fs-4">First Name</p>
+                            <input type="text" name="name" placeholder="Name"> <br><br>
+                            <p class="lead fs-4">Email address</p>
+                            <input type="text" name="email" placeholder="Email"> <br><br>
+                            <p class="lead fs-4">Message</p>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea> <br><br>
+                            <button type="submit" class="btn text-white border-white fs-5 w-25">Send</button>
+                            <br><br>
+                        </form>
+                    </div>
+                </div>    
+            </div>
+            <br><br>
             <br><br>
         </section>
     </main>
