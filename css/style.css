@@ -30,19 +30,19 @@ nav a:hover{
 #title{
     color: crimson;
     font-family: "Bellota", system-ui;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: normal;
 }
 #profile{
-    width: 47rem;
-    height: 40rem;
+    width: 37rem;
+    height: 31rem;
 }
 #about{
     background-color: rgb(10, 10, 10);
 }
 #aboutProfile{
-    width: 35rem;
-    height: 29rem;
+    width: 30rem;
+    height: 25rem;
 }
 #education{
     border-top: crimson 0.5px solid;
@@ -50,17 +50,12 @@ nav a:hover{
 #experience{
     border-top: crimson 0.5px solid;
 }
-.circle{
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-}
 #work{
         background-color: rgb(10, 10, 10);
 }
 #projectImg{
-    width: 20rem;
-    height: 9rem;
+    width: 18rem;
+    height: 8rem;
 }
 #sub{
     font-weight: lighter;
@@ -76,15 +71,33 @@ nav a:hover{
 input{
     background: transparent;
     border-radius: 5px;
+    border:  rgb(121, 120, 120) solid 0.1px;
+    width: 280px;
+    color: white;
 }
 textarea{
     background: transparent;
     border-radius: 5px;
+    width: 280px;
+    color: white;
 }
-form{
-    width: 45rem;
-    height: 40rem;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 20px;
+#linkbtn:hover{
+    background-color: crimson;
+    border: none;
 }
+
+@media(min-width: 1080px){
+    #home{
+        height: 100vh;
+    }
+    #sub{
+        display: none;
+    }
+}
+
+@media (max-width:300px) {
+    .display-4{
+        font-size: 33px !important;
+    }
+}
+

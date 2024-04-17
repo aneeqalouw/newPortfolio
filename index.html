@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="favicon" href="./images/AL.png">
     <title>Aneeqa Louw</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-black border-bottom sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#home">AL</a>
+            <a class="navbar-brand text-light" href="#home">
+                <img src="./images/AL.png" alt="AL" style="width: 3rem; height: 2.7rem;">
+                <p class="fw-bold" style="color: #e6657d; position: absolute; left: 58px; top: 20px;">Aneeqa Louw.</p>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto fs-5">
+                <ul class="navbar-nav ms-auto fs-6">
                     <li class="nav-item">
                         <a class="nav-link text-light" aria-current="page" href="#home">Home</a>
                     </li>
@@ -42,23 +47,24 @@
     <main>
         <!-- home -->
         <section id="home" class="container">
-            <div class="row">
+            <div class="row d-flex align-items-center">
                 <div class="col-7">
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                    <p class="lead fs-1">Hi, I'm Aneeqa</p>
-                    <p class="display-1">
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                    <p class="lead fs-4">Hi, I'm Aneeqa</p>
+                    <p class="display-4">
                         <span id="title">Designer</span>|<span id="title">Developer</span>
                     </p>
-                    <p class="lead fs-3">Junior Web Designer/Developer</p>
+                    <p class="lead fs-5">Junior Web Designer/Developer</p>
                     <a href="#about" class="lead">Learn more ></a>
+                    <br><br>
+                    <br><br>
+                    <br><br>
+                    <br><br>
                 </div>
                 <div class="col-5 d-none d-md-block">
-                    <br><br>
                     <br><br>
                     <br><br>
                     <img src="./images/b&w profile.png" alt="profile" id="profile">
@@ -68,6 +74,7 @@
 
         <!-- about -->
         <section id="about" class="container-fluid justify-content-center">
+            <br><br>
             <br><br>
             <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">About me</h2>
             <div class="d-flex justify-content-center gap-3">
@@ -88,22 +95,22 @@
                 </svg>
             </div>
             <br><br>
-            <p class="lead d-flex justify-content-center" id="sub">A bit about me and my background</p>
+            <p class="d-flex justify-content-center" id="sub">A bit about me and my background</p>
             <div class="row d-block d-md-flex justify-content-center">
-                <div class="col">
+                <div class="col d-none d-md-flex">
                     <img src="./images/b&w profile.png" alt="profile" id="aboutProfile">
                 </div>
                 <div class="col">
                     <br><br>
                     <br><br>
-                    <h5 class="fs-1">I'm Aneeqa Louw</h5>
-                    <p class="lead fs-4 d-flex justify-content-center">
+                    <h5 class="fs-5">I'm Aneeqa Louw</h5>
+                    <p class="d-flex justify-content-center">
                         Born on 26/11/2002, into the tech generation. <br> <br>
                         I started my coding journey back in high school, 2018, doing Delphi and
                         MySQL. Since then I've had a knack for computer programmimg and eventually went on to graduate from Life Choices Coding
-                        Academy. <br><br>I am currently working as a student intern at LC Studio.
+                        Academy. <br><br>I am currently working as a web development intern at LC Studio.
                     </p>
-                    <p class="lead fs-4">I'm a creative and adaptable individual with great attention to detail and quick learning abilities</p>
+                    <p>I'm a creative and adaptable individual with great attention to detail and quick learning abilities</p>
                 </div>
             </div>
             <br><br>
@@ -111,6 +118,7 @@
 
         <!-- resume -->
         <section id="resume" class="container">
+            <br><br>
             <br><br>
             <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">Education & Experience</h2>
                         <div class="d-flex justify-content-center gap-3">
@@ -135,7 +143,7 @@
                     <div class="container">
                         <h3 class="d-flex justify-content-center display-5">Education</h3>
                         <br><br>
-                        <div class="row" id="education">
+                        <div class="row" id="education" data-aos="zoom-in">
                             <p class="lead fs-4">
                                 <br>
                                 Life Choices Coding Academy - Web Development Course
@@ -144,7 +152,7 @@
                             <p style="font-style: italic;">2023 - 2024</p>
                         </div>
                         <br> 
-                        <div class="row" id="education">
+                        <div class="row" id="education" data-aos="zoom-in">
                             <p class="lead fs-4">
                                 <br>
                                 STADIO - Film and TV Makeup
@@ -153,7 +161,7 @@
                             <p style="font-style: italic;">2021</p>
                         </div>
                         <br>
-                        <div class="row" id="education">
+                        <div class="row" id="education" data-aos="zoom-in">
                             <p class="lead fs-4">
                                 <br>
                                 Rylands High School - Matric
@@ -168,7 +176,7 @@
                     <div class="container">
                         <h3 class="d-flex justify-content-center display-5">Experience</h3>
                         <br><br>
-                        <div class="row" id="experience">
+                        <div class="row" id="experience" data-aos="zoom-in">
                             <p class="lead fs-4">
                                 <br>
                                 LC Studio - Web Development Intern
@@ -183,7 +191,7 @@
                         <h3 class="d-flex justify-content-center display-5">Technical Skills</h3>
                         <br><br>
                         <div class="row d-block d-md-flex gap-3 flex-wrap">
-                            <div class="col border-1">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M0.5 0H35.5L32.3167 35.9383L17.9617 40L3.68833 35.9367L0.5 0ZM12.2183 16.25L11.8317 11.72L28.5967 11.725L28.98 7.355L7.02 7.35L8.18333 20.7H23.3933L22.85 26.41L18 27.75L13.075 26.4L12.7617 22.8833H8.41333L8.96333 29.835L18 32.2517L26.965 29.8467L28.205 16.2517L12.2183 16.25Z"
@@ -194,7 +202,7 @@
                                 <p> Standard markup language for web pages</p>
 
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M3 0L6.188 36.112L20 40L33.812 36.112L37 0H3ZM30.154 11.704L19.988 16.25L19.962 16.26H29.796L28.67 29.784L20.002 32.43L19.988 32.424V32.43L11.272 29.734L10.712 22.924H15.036L15.316 26.452L19.948 27.674L19.988 27.662V27.668L24.782 26.256L25.11 20.572L19.988 20.556L10.428 20.524L10.102 16.26L19.988 11.954L20.564 11.704H9.728L9.21 7.344H30.576L30.154 11.704Z"
@@ -206,7 +214,7 @@
                                 <p>Style sheet language</p>
 
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_71_12)">
                                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -225,7 +233,7 @@
                                 <p>Open source CSS framework</p>
 
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M5 5H35V35H5V5ZM32.5417 27.845C32.3233 26.4767 31.4317 25.3267 28.7883 24.2533C27.8683 23.8217 26.8467 23.5233 26.54 22.83C26.4267 22.4167 26.41 22.1933 26.4833 21.9483C26.6717 21.1417 27.6283 20.9 28.3783 21.1233C28.8667 21.2733 29.3167 21.6483 29.5983 22.25C30.89 21.405 30.89 21.405 31.7917 20.8433C31.4533 20.32 31.285 20.0917 31.06 19.8667C30.2717 18.9867 29.2217 18.5367 27.5167 18.575L26.6367 18.6867C25.7917 18.8933 24.985 19.345 24.4983 19.9433C23.0733 21.5567 23.485 24.3683 25.21 25.5333C26.915 26.8083 29.4117 27.0883 29.73 28.2883C30.03 29.7517 28.6433 30.22 27.2717 30.0517C26.26 29.825 25.6967 29.32 25.0783 28.3817L22.7917 29.695C23.0533 30.2933 23.3533 30.5567 23.8033 31.0817C25.9783 33.275 31.4167 33.1633 32.3917 29.825C32.4267 29.7133 32.6917 28.945 32.485 27.7633L32.5417 27.845ZM21.3133 18.7883H18.5033C18.5033 21.21 18.4917 23.6183 18.4917 26.045C18.4917 27.585 18.57 28.9983 18.3183 29.4333C17.9067 30.295 16.8417 30.185 16.36 30.0317C15.865 29.7883 15.6133 29.45 15.3217 28.9633C15.2433 28.8333 15.185 28.72 15.1633 28.72L12.8833 30.1267C13.265 30.915 13.8217 31.5917 14.54 32.0217C15.6083 32.66 17.0433 32.8667 18.5467 32.53C19.5267 32.2467 20.3717 31.665 20.81 30.765C21.45 29.6033 21.3133 28.1767 21.3083 26.5833C21.3217 24.015 21.3083 21.445 21.3083 18.8583L21.3133 18.7883Z"
@@ -235,7 +243,7 @@
                                 <h4>Javascript</h4>
                                 <p>Core web programming language</p>
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="47" height="40" viewBox="0 0 47 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_71_16)">
                                         <path
@@ -254,7 +262,7 @@
                                 <p>Front end Javascript library for building UI</p>
 
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M38.0033 11.2348L20.67 1.12012L3.33664 11.2348V28.7655L6.01931 30.3308L11.5046 28.1121C12.2428 27.8132 12.8749 27.3008 13.3201 26.6404C13.7652 25.98 14.0031 25.2018 14.0033 24.4055V10.6668H16.67V24.4055C16.6698 25.733 16.2732 27.0303 15.5311 28.1311C14.7891 29.2319 13.7352 30.086 12.5046 30.5841L8.93131 32.0295L20.67 38.8801L38.0033 28.7681V11.2348ZM19.3366 16.0001C19.3366 14.5856 19.8985 13.2291 20.8987 12.2289C21.8989 11.2287 23.2555 10.6668 24.67 10.6668H27.782C30.4806 10.6668 32.67 12.8535 32.67 15.5548V16.0001H30.0033V15.5548C30.0033 15.2631 29.9459 14.9742 29.8342 14.7047C29.7226 14.4352 29.559 14.1903 29.3527 13.9841C29.1464 13.7778 28.9015 13.6142 28.632 13.5025C28.3625 13.3909 28.0737 13.3335 27.782 13.3335H24.67C23.9627 13.3335 23.2845 13.6144 22.7844 14.1145C22.2843 14.6146 22.0033 15.2929 22.0033 16.0001C22.0033 16.7074 22.2843 17.3856 22.7844 17.8857C23.2845 18.3858 23.9627 18.6668 24.67 18.6668H27.3366C28.7511 18.6668 30.1077 19.2287 31.1079 20.2289C32.1081 21.2291 32.67 22.5856 32.67 24.0001C32.67 25.4146 32.1081 26.7712 31.1079 27.7714C30.1077 28.7715 28.7511 29.3335 27.3366 29.3335H24.67C23.2555 29.3335 21.8989 28.7715 20.8987 27.7714C19.8985 26.7712 19.3366 25.4146 19.3366 24.0001H22.0033C22.0033 24.7074 22.2843 25.3856 22.7844 25.8857C23.2845 26.3858 23.9627 26.6668 24.67 26.6668H27.3366C28.0439 26.6668 28.7222 26.3858 29.2223 25.8857C29.7224 25.3856 30.0033 24.7074 30.0033 24.0001C30.0033 23.2929 29.7224 22.6146 29.2223 22.1145C28.7222 21.6144 28.0439 21.3335 27.3366 21.3335H24.67C23.2555 21.3335 21.8989 20.7715 20.8987 19.7714C19.8985 18.7712 19.3366 17.4146 19.3366 16.0001Z"
@@ -266,7 +274,7 @@
                                 <p>Javascript runtime enviroment for server side scripting</p>
 
                             </div>
-                            <div class="col">
+                            <div class="col" data-aos="zoom-in">
                                 <svg width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_71_20)">
                                         <path
@@ -295,6 +303,7 @@
         <section id="work">
             <div class="container">
                 <br><br>
+                <br><br>
                 <h2 id="title" class="d-flex justify-content-center display-3 fw-bold">Some of my work</h2>
                 <div class="d-flex justify-content-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
@@ -314,79 +323,79 @@
                     </svg>
                 </div>
                 <br><br>
-                <p class="lead d-flex justify-content-center" id="sub">Some of my websites/web application projects</p>
+                <p class="lead d-flex justify-content-center">Some of my websites/web application projects</p>
                 <br><br>
                 <br><br>
-                <div class="row d-flex justify-content-center gap-5">
-                    <div class="col-3">
+                <div class="row gap-5">
+                    <div class="col" data-aos="zoom-in">
                         <img src="https://i.ibb.co/YL5G1yf/abroad-academy.png" alt="abroad-academy" id="projectImg">
                         <br><br>
-                        <h5 class="fs-3">Abroad Academy</h5>
-                        <p class="lead fw-lighter">My Capstone project - A course booking system</p>
+                        <h5 class="fs-5">Abroad Academy</h5>
+                        <p style="color: rgb(187, 186, 186);">My Capstone project - A course booking system built with Vue Js and Node Js</p>
                         <div class="d-flex gap-2">
                             <a href="https://capstone-ffbb4.web.app/" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">Site</button>
+                                <button class="btn border-light text-white" id="linkbtn">Site</button>
                             </a>
                             <a href="https://github.com/aneeqalouw/CAPSTONE.git" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">GitHub</button>
+                                <button class="btn border-light text-white" id="linkbtn">GitHub</button>
                             </a>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col" data-aos="zoom-in">
                         <img src="./images/altitude.PNG" alt="altitude-apparel" id="projectImg">
                         <br><br>
-                        <h5 class="fs-3">Altitude Apparel</h5>
-                        <p class="lead fw-lighter">An e-Commerce website selling aerial dance clothing</p>
+                        <h5 class="fs-5">Altitude Apparel</h5>
+                        <p style="color: rgb(187, 186, 186);">An e-Commerce website selling aerial dance clothing. Built with Vue and Node Js</p>
                         <div class="d-flex gap-2">
                             <a href="https://nodejs-project-289b2.web.app/" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">Site</button>
+                                <button class="btn border-light text-white" id="linkbtn">Site</button>
                             </a>
                             <a href="https://github.com/aneeqalouw/nodejs_EOMP.git" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">GitHub</button>
+                                <button class="btn border-light text-white" id="linkbtn">GitHub</button>
                             </a>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col" data-aos="zoom-in">
                         <img src="https://i.postimg.cc/xdm9fqbk/kilau-lip-pigments.png" alt="kilau-lip-pigments" id="projectImg">
                         <br><br>
-                        <h5 class="fs-3">Kilau Lip Pigments</h5>
-                        <p class="lead fw-lighter">An e-Commerce website built with HTML, CSS, bootstrap and Javascript</p>
+                        <h5 class="fs-5">Kilau Lip Pigments</h5>
+                        <p style="color: rgb(187, 186, 186);">An e-Commerce website built with HTML, CSS, Bootstrap and Javascript</p>
                         <div class="d-flex gap-2">
                             <a href="https://kilaulipsecommerce.netlify.app/" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">Site</button>
+                                <button class="btn border-light text-white" id="linkbtn">Site</button>
                             </a>
                             <a href="https://github.com/aneeqalouw/JS-EOMP.git" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">GitHub</button>
+                                <button class="btn border-light text-white" id="linkbtn">GitHub</button>
                             </a>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col" data-aos="zoom-in">
                         <br><br>
                         <img src="https://i.postimg.cc/W1Fv8t89/palindrome-checker.png" alt="palindrome-checker" id="projectImg">
                         <br><br>
-                        <h5 class="fs-3">Palindrome Checker</h5>
-                        <p class="lead fw-lighter">A web app that checks if a word is a palindrome or not</p>
+                        <h5 class="fs-5">Palindrome Checker</h5>
+                        <p style="color: rgb(187, 186, 186);">A Javascript web app that checks if a word is a palindrome or not</p>
                         <div class="d-flex gap-2">
                             <a href="https://bejewelled-puppy-37252e.netlify.app/" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">Site</button>
+                                <button class="btn border-light text-white" id="linkbtn">Site</button>
                             </a>
                             <a href="https://github.com/aneeqalouw/palindrome.git" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">GitHub</button>
+                                <button class="btn border-light text-white" id="linkbtn">GitHub</button>
                             </a>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col" data-aos="zoom-in">
                         <br><br>
                         <img src="./images/temp copy.PNG" alt="temp-converter" id="projectImg">
                         <br><br>
-                        <h5 class="fs-3">Temperature Converter</h5>
-                        <p class="lead fw-lighter">A temperature converter web app made with Javascript</p>
+                        <h5 class="fs-5">Temperature Converter</h5>
+                        <p style="color: rgb(187, 186, 186);">A temperature converter web app made with Javascript</p>
                         <div class="d-flex gap-2">
                             <a href="https://fancy-squirrel-f5d4d4.netlify.app/" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">Site</button>
+                                <button class="btn text-white border-light" id="linkbtn">Site</button>
                             </a>
                             <a href="https://github.com/aneeqalouw/tempConverter.git" target="_blank">
-                                <button class="btn bg-transparent border-light text-white fs-5">GitHub</button>
+                                <button class="btn border-light text-white" id="linkbtn">GitHub</button>
                             </a>
                         </div>
                     </div>
@@ -396,6 +405,7 @@
 
         <!-- testimonials -->
         <section id="testimonials">
+            <br><br>
             <br><br>
             <h2 class="d-flex justify-content-center display-3 fw-bold" id="title">Testimonials</h2>
             <div class="d-flex justify-content-center gap-3">
@@ -419,8 +429,8 @@
             <p class="lead d-flex justify-content-center" id="sub">What others have to say about me</p>
             <br><br>
             <br><br>
-            <div class="row d-flex justify-content-center gap-5">
-                <div class="col-2">
+            <div class="row d-flex justify-content-center gap-2 mx-5" id="reviews">
+                <div class="col" data-aos="zoom-in">
                     <img src="https://i.ibb.co/yNKQcLJ/joel.png" alt="joel" id="reviewImg">
                     <br><br>
                     <h4 class="fw-bold">Joel Mukanya</h4>
@@ -432,7 +442,7 @@
                     </p>
                     <br>
                 </div>
-                <div class="col-2">
+                <div class="col" data-aos="zoom-in">
                     <img src="https://i.ibb.co/JvpngWb/eighton.png" alt="eighton" id="reviewImg">
                     <br><br>
                     <h4 class="fw-bold">Eighton-Lee Paulse</h4>
@@ -444,7 +454,7 @@
                     <br><br>
                     <br><br>
                 </div>
-                <div class="col-2">
+                <div class="col" data-aos="zoom-in">
                     <img src="https://i.ibb.co/tPNns5h/1697092465133.jpg" alt="jaydonn" id="reviewImg">
                     <br><br>
                     <h4 class="fw-bold">Jay-donn Hendricks</h4>
@@ -457,7 +467,7 @@
                     <br><br>
                     <br>
                 </div>
-                <div class="col-2">
+                <div class="col" data-aos="zoom-in">
                     <img src="https://i.ibb.co/jgRmC9j/vero.jpg" alt="veronique" id="reviewImg">
                     <br><br>
                     <h4 class="fw-bold">Veronique Nappie</h4>
@@ -477,7 +487,8 @@
         <!-- contact -->
         <section id="contact" class="container-fluid">
             <br><br>
-            <h2 class="d-flex justify-content-center display-3" id="title">Get in touch</h2>
+            <br><br>
+            <h2 class="d-flex justify-content-center display-3" id="title">Contact me</h2>
             <div class="d-flex justify-content-center gap-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 32 32">
                     <circle cx="16" cy="16" r="10" fill="#dc143c" />
@@ -498,62 +509,93 @@
             <p class="lead d-flex justify-content-center">Contact me or send a message</p>
             <br><br><br><br>
             <div class="row d-flex justify-content-center">
-                <div class="col-2">
-                    <a href="tel:+27-83-424-6185" class="d-flex justify-content-center" target="_blank">
-                        <!-- svg -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 512 512">
-                            <path fill="#dc143c"
-                                d="M391 480c-19.52 0-46.94-7.06-88-30c-49.93-28-88.55-53.85-138.21-103.38C116.91 298.77 93.61 267.79 61 208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82 73.38 58.16 62.65 74.11 52a176.3 176.3 0 0 1 28.64-15.2c1-.43 1.93-.84 2.76-1.21c4.95-2.23 12.45-5.6 21.95-2c6.34 2.38 12 7.25 20.86 16c18.17 17.92 43 57.83 52.16 77.43c6.15 13.21 10.22 21.93 10.23 31.71c0 11.45-5.76 20.28-12.75 29.81c-1.31 1.79-2.61 3.5-3.87 5.16c-7.61 10-9.28 12.89-8.18 18.05c2.23 10.37 18.86 41.24 46.19 68.51s57.31 42.85 67.72 45.07c5.38 1.15 8.33-.59 18.65-8.47c1.48-1.13 3-2.3 4.59-3.47c10.66-7.93 19.08-13.54 30.26-13.54h.06c9.73 0 18.06 4.22 31.86 11.18c18 9.08 59.11 33.59 77.14 51.78c8.77 8.84 13.66 14.48 16.05 20.81c3.6 9.53.21 17-2 22c-.37.83-.78 1.74-1.21 2.75a176.49 176.49 0 0 1-15.29 28.58c-10.63 15.9-21.4 28.21-39.38 36.58A67.42 67.42 0 0 1 391 480" />
-                        </svg>
-                    </a>
-                    <p class="lead fs-5 d-flex justify-content-center">+27 83 424 6185</p>
-                </div>
-                <div class="col-2">
-                    <a href="mailto:aneeqalouw057@gmail.com?" class="d-flex justify-content-center" target="_blank">
-                        <!-- svg -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24">
-                            <path fill="#dc143c"
-                                d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44" />
-                        </svg>
-                    </a>
-                    <p class="lead fs-5 d-flex justify-content-center">aneeqalouw057@gmail.com</p>
-                </div>
-            
-                <div class="col-2">
-                    <a href="https://maps.app.goo.gl/GCg32YJmoBxmQ4LS8" class="d-flex justify-content-center" target="_blank">
-                        <!-- svg -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24">
-                            <path fill="#dc143c"
-                                d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.971 6.971 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" />
-                        </svg>
-                    </a>
-                    <p class="lead fs-5 d-flex justify-content-center" style="text-align: center;">
-                        Surrey Estate 7764 <br>
-                        Cape Town, South Africa
-                    </p>
-                </div>
-            </div>
-            <br><br><br><br>
-            <div class="row d-flex justify-content-center">
-                <div class="col-6 bg-black p-5 rounded-4 w-75">
+                <!-- form -->
+                <div class="col">
                     <h3 class="d-flex justify-content-center fs-1 my-3">Send a message</h3>
                     <br><br>
                     <div class="container d-flex justify-content-center">
-                        <form action="" method="post">
-                            <p class="lead fs-4">First Name</p>
-                            <input type="text" name="name" placeholder="Name"> <br><br>
-                            <p class="lead fs-4">Email address</p>
-                            <input type="text" name="email" placeholder="Email"> <br><br>
-                            <p class="lead fs-4">Message</p>
-                            <textarea name="message" cols="30" rows="10" placeholder="Message"></textarea> <br><br>
-                            <button type="submit" class="btn text-white border-white fs-5 w-25">Send</button>
+                        <form action="https://formspree.io/f/xzbloloo" method="post">
+                            <p>First Name</p>
+                            <input type="text" name="name" placeholder="Name" required> <br><br>
+                            <p>Email address</p>
+                            <input type="text" name="email" placeholder="Email" required> <br><br>
+                            <p>Message</p>
+                            <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea> <br><br>
+                            <button type="submit" class="btn text-white border-white w-75" id="linkbtn">Send</button>
                             <br><br>
                         </form>
                     </div>
-                </div>    
+                    <br><br>
+                    <br><br>
+                </div>
+                <!-- details -->
+                <div class="col">
+                    <br><br>
+                        <a href="tel:+27-83-424-6185" class="d-flex justify-content-start" target="_blank">
+                            <!-- svg -->
+                            <div id="svg" class="mx-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 512 512">
+                                    <path fill="#dc143c"
+                                        d="M391 480c-19.52 0-46.94-7.06-88-30c-49.93-28-88.55-53.85-138.21-103.38C116.91 298.77 93.61 267.79 61 208.45c-36.84-67-30.56-102.12-23.54-117.13C45.82 73.38 58.16 62.65 74.11 52a176.3 176.3 0 0 1 28.64-15.2c1-.43 1.93-.84 2.76-1.21c4.95-2.23 12.45-5.6 21.95-2c6.34 2.38 12 7.25 20.86 16c18.17 17.92 43 57.83 52.16 77.43c6.15 13.21 10.22 21.93 10.23 31.71c0 11.45-5.76 20.28-12.75 29.81c-1.31 1.79-2.61 3.5-3.87 5.16c-7.61 10-9.28 12.89-8.18 18.05c2.23 10.37 18.86 41.24 46.19 68.51s57.31 42.85 67.72 45.07c5.38 1.15 8.33-.59 18.65-8.47c1.48-1.13 3-2.3 4.59-3.47c10.66-7.93 19.08-13.54 30.26-13.54h.06c9.73 0 18.06 4.22 31.86 11.18c18 9.08 59.11 33.59 77.14 51.78c8.77 8.84 13.66 14.48 16.05 20.81c3.6 9.53.21 17-2 22c-.37.83-.78 1.74-1.21 2.75a176.49 176.49 0 0 1-15.29 28.58c-10.63 15.9-21.4 28.21-39.38 36.58A67.42 67.42 0 0 1 391 480" />
+                                </svg>
+                            </div>
+                            <p class="lead">+27 83 424 6185</p>
+                        </a>
+                        <br><br>
+                        <a href="mailto:aneeqalouw057@gmail.com?" class="d-flex justify-content-start" target="_blank">
+                            <!-- svg -->
+                            <div id="svg2" class="mx-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <path fill="#dc143c"
+                                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2m-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25a.85.85 0 1 1 .9-1.44L12 11l6.7-4.19a.85.85 0 1 1 .9 1.44" />
+                                </svg>
+                            </div>
+                            <p class="lead d-flex justify-content-center">aneeqalouw057@gmail.com</p>
+                        </a>
+                        <br><br>
+                        <a href="https://maps.app.goo.gl/GCg32YJmoBxmQ4LS8" class="d-flex justify-content-start" target="_blank">
+                            <!-- svg -->
+                            <div id="svg3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24">
+                                    <path fill="#dc143c"
+                                        d="M19 9A7 7 0 1 0 5 9c0 1.387.409 2.677 1.105 3.765h-.008L12 22l5.903-9.235h-.007A6.971 6.971 0 0 0 19 9m-7 3a3 3 0 1 1 0-6a3 3 0 0 1 0 6" />
+                                </svg>
+                            </div>
+                            <p class="lead d-flex justify-content-center" style="text-align: center;">
+                                Surrey Estate 7764 <br>
+                                Cape Town, South Africa
+                            </p>
+                        </a>
+                        <!-- socials -->
+                        <br>
+                        <div class="container d-flex justify-content-start gap-4">
+                            <a href="https://www.linkedin.com/in/aneeqa-louw-2684411ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16">
+                                    <path fill="#dc143c"
+                                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248c-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586c.173-.431.568-.878 1.232-.878c.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                                </svg>
+                            </a>
+                            <a href="https://github.com/aneeqalouw" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                                    <g fill="none">
+                                        <g clip-path="url(#akarIconsGithubFill0)">
+                                            <path fill="#dc143c" fill-rule="evenodd"
+                                                d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12"
+                                                clip-rule="evenodd" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="akarIconsGithubFill0">
+                                                <path fill="#fff" d="M0 0h24v24H0z" />
+                                            </clipPath>
+                                        </defs>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                        <br>
+                </div>
+
             </div>
-            <br><br>
-            <br><br>
         </section>
     </main>
 
@@ -564,5 +606,9 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
